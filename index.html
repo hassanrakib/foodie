@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico" type="image/x-icon">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    <title>Foodie</title>
+</head>
+
+<body>
+    <!-- Top Section -->
+    <section class="flex">
+        <div class="flex__item">
+            <h1 class="flex__heading flex__heading--size">
+                Let Foodie <br> Keep <span class="flex__span">Track</span> of Your Hunger
+            </h1>
+            <p class="flex__paragraph">Food is the best reward! We cook rewards to be delivered. Reward yourself for your dedication towards good things.</p>
+            <a class="flex__cta" href="#">Get Food</a>
+        </div>
+        <div class="flex__item">
+            <img src="/img/woman-eating-burger.jpg" alt="Woman eating a hamburger" class="flex__img">
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="flex flex--background">
+        <div class="flex__item">
+            <img src="img/chef.png" style="width:100%" alt="Chef preparing food" class="flex__img">
+        </div>
+        <div class="flex__item">
+            <h2 class="flex__heading flex__heading--modifier">About Us</h2>
+            <p class="flex__paragraph">
+                We call Foodie an online restaurant. The initiative to start Foodie was taken by Rakib Hassan. He is a commited person to develop Foodie's presence online. Currently we are getting thousands of orders daily. We take customers feedbacks seriously to make our future brighten. Hope, oneday foodie will start serving foods for middle class families with reasonable price.
+            </p>
+            <a class="flex__cta" href="#">Know More</a>
+        </div>
+    </section>
+    <!-- Food Menu Section -->
+    <section class="parent-section">
+        <div class="parent__item">
+            <h2 class="parent-section__item__heading">Our Menu</h2>
+            <p class="parent-section__item__paragraph">Delecious foods are in our menu. See what you like most.</p>
+        </div>
+        <div class="flex flex--width">
+            <div class="flex__item flex__item--box flex__item--common">
+                <img src="img/recepie3.jpg" alt="" class="flex__img flex__img--size">
+                <h2 class="flex__heading">Hamburger</h2>
+                <p class="flex__paragraph">
+                    A dish consisting of a flat round cake of minced beef, or sometimes another savoury ingredient, that is fried or grilled and served in a split bun or roll with various condiments and toppings.
+                </p> 
+            </div>
+            <div class="flex__item flex__item--box flex__item--common">
+                <img src="img/recipie1.jpg" alt="" class="flex__img flex__img--size">
+                <h2 class="flex__heading">Pizza</h2>
+                <p class="flex__paragraph"> 
+                    A dish of Italian origin, consisting of a flat round base of dough baked with a topping of tomatoes and cheese, typically with added meat, fish, or vegetables.
+                </p> 
+            </div>
+            <div class="flex__item flex__item--box flex__item--common">
+                <img src="img/recipie2.png" alt="" class="flex__img flex__img--size">
+                <h2 class="flex__heading">Soup</h2>
+                <p class="flex__paragraph">
+                    A liquid dish, typically savoury and made by boiling meat, fish, or vegetables etc. in stock or water.
+                </p> 
+            </div>
+        </div>
+    </section>
+    <!-- Customer Review Section -->
+    <section class="parent-section">
+        <div class="parent__item">
+            <h2 class="parent-section__item__heading">Customer Reviews</h2>
+            <p class="parent-section__item__paragraph">Our customers love our chefs! Because they give excititng reviews. Here are some of those reviews. Read if you have a minute.</p>
+        </div>
+        <div class="flex flex--width">
+            <div class="flex__item flex__item--common flex__item--text-align">
+                <img src="img/customer-edited.jpg" alt="" class="flex__img flex__img--size flex__img--border">
+                <h2 class="flex__heading">Rakib Hassan</h2>
+                <p class="flex__paragraph"> 
+                    Wow! I love Hamburger. I will reorder. Thanks :)
+                </p> 
+            </div>
+            <div class="flex__item flex__item--common flex__item--text-align">
+                <img src="img/customer-edited.jpg" alt="" class="flex__img flex__img--size flex__img--border">
+                <h2 class="flex__heading">John Doe</h2>
+                <p class="flex__paragraph"> <!-- Change lorem ipsum -->
+                    What a delicious food pizza is! I love Foodie. They just have awesome chefs!
+                </p> 
+            </div>
+            <div class="flex__item flex__item--common flex__item--text-align">
+                <img src="img/customer-edited.jpg" alt="" class="flex__img flex__img--size flex__img--border">
+                <h2 class="flex__heading">Alex Pi</h2>
+                <p class="flex__paragraph">
+                    Never forget you guys. :D
+                </p> 
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form section -->
+    <section class="flex">
+        <div class="flex__item">
+            <img src="img/food-delivery.jpg" alt="" class="flex__img" style="width: 100%">
+        </div>
+        <div class="flex__item">
+            <h2 class="flex__heading flex__heading--size-40" style="margin:0">Send Your Order</h2>
+            <form action="" class="flex__form">
+                <label for="full-name" class="flex-container__item__form__label flex__form--common">Full Name:</label><br>
+                <input type="text" id="full-name" name="full-name" class="flex-container__item__form__input flex__form--common"><br>
+                <label for="email" class="flex-container__item__form__label flex__form--common">Email:</label><br>
+                <input type="email" id="email" name="email" class="flex-container__item__form__input flex__form--common"><br>
+                <label for="food-item" class="flex-container__item__form__label flex__form--common">Food Name:</label><br>
+                <input type="text" id="food-itme" name="food-item" class="flex-container__item__form__input flex__form--common"><br>
+                <input type="submit" value="Order Now" class="flex__input--button flex__form--common">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="parent-section parent-section--mod">
+        <h2 class="parent__item">
+            © <span class="parent-section__span">Foodie</span>
+        </h2>
+        <p class="parent__item">"People who love to eat are always the best people."</p>
+    </footer>
+
+</body>
+
+</html>

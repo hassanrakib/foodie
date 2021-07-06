@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: 'Lora', serif;
+}
+section {
+    margin-bottom: 50px;
+}
+.flex {
+    /* border: solid; */
+    display: flex;
+}
+.flex__item {
+    padding: 30px 0 50px 60px;
+    width: 50%;
+}
+.flex__heading--size {
+    font-size: 60px;
+}
+
+.flex__paragraph {
+    font-size: 18px; /* consider to to body */
+}
+.flex__cta {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, orange, orangered);
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+.flex__img {
+    border-radius: 10px;
+    width: 60%;
+}
+.flex__span {
+    color: orange;
+}
+/* specifically for about section */
+.flex__heading--modifier {
+    font-size: 40px;
+}
+.flex--background {
+    border-radius: 10px;
+    background-image: url("img/7.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Our Menu Section */
+
+.parent__item{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex--width {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex__item--common {
+    width: 30%;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.flex__item--box {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50px;
+}
+
+.flex__img--size {
+    width: 100%;
+}
+
+.flex__img--border {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.flex__item--text-align {
+    text-align: center;
+
+}
+
+.flex-container__item__heading--size-40 {
+    font-size: 40px;
+}
+
+.flex__form {
+    padding: 5px;
+}
+.flex__form--common {
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    width: 80%;
+
+}
+
+.flex__input--button {
+    padding: 20px 0;
+    width: 50%;
+}
+
+.parent-section__span {
+    color: orange;
+}
+.parent-section--mod {
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
